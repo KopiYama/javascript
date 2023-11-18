@@ -1,5 +1,3 @@
-var name = 'Dicoding';
-var age = 23;
+const name = "rizky";
 
 console.log(name);
-console.log(age);
