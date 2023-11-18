@@ -1,3 +1,7 @@
-const name = "rizky";
+const isLate = true;
 
-console.log(name);
+if (isLate) {
+    console.log('masuk');
+} else {
+    console.log('sarapan');
+}
