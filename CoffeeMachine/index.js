@@ -1,8 +1,9 @@
-const {coffeeStock, isCoffeeMachineReady} = require('./state');
+import coffeeStock from './state.js';
  
-console.log(coffeeStock);
-console.log(isCoffeeMachineReady);
-
-/* output
-Kopi berhasil dibuat!
-*/
+const displayStock = stock => {
+  for (const type in stock) {
+    console.log(type);
+  }
+}
+ 
+displayStock(coffeeStock);
